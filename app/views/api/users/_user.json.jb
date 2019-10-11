@@ -1,0 +1,6 @@
+{
+  id: user.id,
+  username: user.username,
+  password: user.password,
+  zip_code: user.zip_code
+}

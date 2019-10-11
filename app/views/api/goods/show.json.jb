@@ -1,0 +1,1 @@
+render partial:'good.json.jb', locals: {good: @good}

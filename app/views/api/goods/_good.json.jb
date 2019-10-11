@@ -1,0 +1,6 @@
+{
+  id: good.id,
+  name: good.name,
+  description: good.description,
+  user_id: good.user_id
+}

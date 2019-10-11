@@ -1,0 +1,3 @@
+@goods.map do |good|
+  render partial:'good.json.jb', locals: {good: good}
+end

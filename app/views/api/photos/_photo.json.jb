@@ -1,0 +1,5 @@
+{
+  id: photo.id,
+  image_url: photo.image_url,
+  good_id: photo.good_id
+}

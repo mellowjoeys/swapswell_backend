@@ -1,0 +1,3 @@
+@photos.map do |photo|
+  render partial:'photo.json.jb', locals: {photo: photo}
+end
