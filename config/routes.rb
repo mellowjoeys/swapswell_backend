@@ -8,16 +8,16 @@ Rails.application.routes.draw do
     get '/goods' => 'goods#index'
     post '/goods' => 'good#create'
     get '/goods/:id' => 'goods#show'
-    patch '/goods/:id' => 'goods#update'
-    delete '/goods/:id' => 'goods#destroy'
+    # patch '/goods/:id' => 'goods#update'
+    # delete '/goods/:id' => 'goods#destroy'
 
     get '/photos' => 'photos#index'
     post '/photos' => 'photos#create'
     get '/photos/:id' => 'photos#show'
-    patch '/goods/:id' => 'photos#update'
-    delete '/goods/:id' => 'photos#destroy'
-    #create, update, destroy
+    # patch '/photos/:id' => 'photos#update'
+    # delete '/photos/:id' => 'photos#destroy'
 
+# Log whether or not a person has swiped left or right on a good already, so they dont get it again. 
     post '/sessions' => 'sessions#create'
     
   end
