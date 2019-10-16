@@ -1,6 +1,6 @@
 class Api::PhotosController < ApplicationController
   def index
-    @photos = Photo.all where user = params[:good_id]
+    @photos = Photo.all
     render 'index.json.jb'
   end
 
