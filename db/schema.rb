@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 2019_10_11_202143) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
+# delete, edit(update), create
 
   create_table "photos", force: :cascade do |t|
     t.string "image_url"
@@ -39,5 +40,4 @@ ActiveRecord::Schema.define(version: 2019_10_11_202143) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
-
 end
