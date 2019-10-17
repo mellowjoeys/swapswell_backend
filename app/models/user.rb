@@ -5,8 +5,4 @@ class User < ApplicationRecord
 
   has_many :reactions
   has_many :goods, through: :reactions
-
-  def 
-    
-  end
 end
