@@ -1,0 +1,3 @@
+@reactions.map do |reaction|
+  render partial: 'reaction.json.jb', locals: {reaction: reaction}
+end

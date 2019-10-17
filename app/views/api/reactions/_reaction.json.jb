@@ -1,0 +1,6 @@
+{
+  id: reaction.id,
+  desired: reaction.desired,
+  user_id: reaction.user_id,
+  good_id: reaction.good_id
+}

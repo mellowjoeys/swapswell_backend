@@ -18,6 +18,11 @@ Rails.application.routes.draw do
     # delete '/photos/:id' => 'photos#destroy'
 
 # Log whether or not a person has swiped left or right on a good already, so they dont get it again. 
+
+    get '/reactions' => 'reactions#index'
+    post '/reactions' => 'reactions#create'
+    get '/reactions/:id' => 'reactions#show'
+
     post '/sessions' => 'sessions#create'
     
   end
