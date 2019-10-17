@@ -1,0 +1,1 @@
+render partial: 'reaction.json.jb', locals: {reaction: @reaction}

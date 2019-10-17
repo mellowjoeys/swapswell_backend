@@ -2,5 +2,7 @@
   id: good.id,
   name: good.name,
   description: good.description,
+  category: good.category,
+  status: good.status,
   user_id: good.user_id
 }
