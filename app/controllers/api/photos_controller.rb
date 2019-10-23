@@ -21,7 +21,7 @@ class Api::PhotosController < ApplicationController
     render 'show.json.jb'
   end
 
-  def index_minus_own
+  def index_others
     goods_minus_own = []
     
     goods = Good.all
